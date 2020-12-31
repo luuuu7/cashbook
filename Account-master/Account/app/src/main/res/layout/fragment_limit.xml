@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tx_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/app_name"
+        android:textColor="#80000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tx_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="#80000000"
+        android:text="@string/limit_day"
+        android:textSize="@dimen/customTitle" />
+
+    <EditText
+        android:id="@+id/ed_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="number|numberDecimal"
+        android:textColor="#000000"
+        android:textSize="@dimen/customEntry" />
+
+
+    <TextView
+        android:id="@+id/tx_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textColor="#80000000"
+        android:text="@string/limit_month"
+        android:textSize="@dimen/customTitle" />
+
+    <EditText
+        android:id="@+id/ed_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="number|numberDecimal"
+        android:textColor="#000000"
+        android:textSize="@dimen/customEntry" />
+
+    <TextView
+        android:id="@+id/tx_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textColor="#80000000"
+        android:text="@string/limit_year"
+        android:textSize="@dimen/customTitle" />
+
+    <EditText
+        android:id="@+id/ed_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="number|numberDecimal"
+        android:textColor="#000000"
+        android:textSize="@dimen/customEntry" />
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/selector_btn_blue"
+        android:paddingTop="10dp"
+        android:text="@string/limit_set"
+        android:textColor="@color/text"
+        android:textSize="18sp" />
+
+</LinearLayout>

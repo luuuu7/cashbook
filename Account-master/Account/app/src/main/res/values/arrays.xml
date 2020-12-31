@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="account_handle">
+        <item>编辑账单</item>
+        <item>删除账单</item>
+        <item>查看账单备注</item>
+    </string-array>
+
+    <string-array name="zichan_handle">
+        <item>删除资产</item>
+        <item>修改资产</item>
+    </string-array>
+
+    <string-array name="pay_handle">
+        <item>删除支付账户</item>
+        <item>修改支付账户</item>
+    </string-array>
+
+
+    <string-array name="user_handle">
+        <item>删除用户</item>
+        <item>修改密码</item>
+    </string-array>
+
+    <string-array name="sort_array">
+        <item>查看所有项</item>
+        <item>查看收入项</item>
+        <item>查看支出项</item>
+    </string-array>
+
+    <string-array name="chart_handle">
+        <item>收入统计</item>
+        <item>支出统计</item>
+    </string-array>
+
+    <array name="custom_colors">
+        <item>#F44336</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+        <item>#2196F3</item>
+    </array>
+
+<!--
+    <string-array name="from_type">
+        <item>微信</item>
+        <item>支付宝</item>
+        <item>银行卡</item>
+    </string-array>
+-->
+
+</resources>

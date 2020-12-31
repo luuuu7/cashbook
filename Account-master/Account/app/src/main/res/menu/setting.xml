@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawer_item_income"
+        android:title="@string/drawer_item_income" />
+
+    <item
+        android:id="@+id/drawer_item_outcome"
+        android:title="@string/drawer_item_outcome" />
+
+    <item
+        android:id="@+id/drawer_item_max"
+        android:title="@string/drawer_item_max" />
+
+    <item
+        android:id="@+id/drawer_item_user"
+        android:title="@string/drawer_item_user" />
+
+    <item
+        android:id="@+id/drawer_item_alarm"
+        android:title="@string/drawer_item_alarm" />
+
+    <item
+        android:id="@+id/drawer_item_about"
+        android:title="@string/drawer_item_about" />
+
+    <item
+        android:id="@+id/loginout"
+        android:title="@string/loginout" />
+
+</menu>

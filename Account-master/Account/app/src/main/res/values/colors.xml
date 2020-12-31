@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- general text colors -->
+    <color name="text">#212121</color>
+    <color name="secondary">#727272</color>
+    <color name="hint">#B8B8B8</color>
+    <color name="dividers">#DADADA</color>
+
+    <!-- general colors for drawer -->
+    <color name="list_background">#F2F2F2</color>
+    <!-- primary colors for drawer -->
+    <color name="list_background_normal">#FCFCFC</color>
+    <!-- secondary colors for drawer -->
+    <color name="list_background_secondary_normal">#F2F2F2</color>
+
+    <color name="white">#FFF</color>
+
+    <color name="arc1">#099bfb</color>
+
+    <!--Zxing相关-->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+</resources>

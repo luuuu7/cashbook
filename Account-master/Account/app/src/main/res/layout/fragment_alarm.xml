@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+     <TextView
+        android:id="@+id/tx_alarm_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="left"
+        android:text="@string/alarm_title"
+        android:textColor="@color/secondary"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/tx_alarm_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:gravity="left"
+        android:text="@string/alarm_title"
+        android:textColor="@color/secondary"
+        android:textSize="22sp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/dialog_btn_bg"
+        android:text="每日提醒设置"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:textColor="#fff"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/btn_alarm_cancel"
+        android:layout_width="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/dialog_btn_bg"
+        android:text="取消提醒设置"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:textColor="#fff"
+        android:layout_height="45dp" />
+
+</LinearLayout>

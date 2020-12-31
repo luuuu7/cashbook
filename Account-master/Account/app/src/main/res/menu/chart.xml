@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawer_chart_pie_in"
+        android:title="@string/drawer_chart_pie_in" />
+
+    <item
+        android:id="@+id/drawer_chart_pie_out"
+        android:title="@string/drawer_chart_pie_out" />
+
+    <item
+        android:id="@+id/drawer_chart_column_year"
+        android:title="@string/drawer_chart_column_year" />
+
+    <item
+        android:id="@+id/drawer_table_year_in"
+        android:title="@string/drawer_table_year_in" />
+
+    <item
+        android:id="@+id/drawer_table_year_out"
+        android:title="@string/drawer_table_year_out" />
+
+</menu>
